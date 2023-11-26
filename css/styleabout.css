@@ -1,0 +1,147 @@
+/* Reset some default styles for better consistency */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+  
+  body {
+	background-color: #FFFDF7;
+	min-height: 100vh;
+	place-items: center;
+	font-family: Arial, Helvetica, sans-serif;
+	
+  }
+
+  .navigation {
+	padding-left: 60px;
+	padding-top:30px;
+  }
+
+  li {
+	list-style: none;
+	display:inline-block;
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	
+  }
+  
+  .homelink {
+	padding-right: 1100px;
+  }
+
+  .menulink {
+	padding-right: 30px;
+  }
+
+  .aboutlink {
+	
+  }
+
+  .homelink-a {
+	color: #021E79;
+	font-size: ;
+	text-decoration: none;
+  }
+
+  .menulink-a {
+	color: #021E79;
+	text-decoration: none;
+
+  }
+
+  .aboutlink-a {
+	color: #021E79;
+	text-decoration: none;
+
+  }
+
+  .homelink-a:hover {
+	text-decoration: underline;
+  }
+
+  .menulink-a:hover {
+	text-decoration: underline;
+  }
+
+  .aboutlink-a:hover {
+	text-decoration: underline;
+  }
+
+  
+
+  .headerabout {
+	font-size: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 270px;
+	padding-bottom: 270px;
+	color: #021E79
+  }
+  
+  /* Define styles for the two columns */
+  .two-column-section {
+	display: flex;
+  }
+  
+  .column1 {
+	flex: 1;
+	padding-top: 20px;
+	padding-left: 60px;
+	padding-right: 30px;
+  }
+  
+  .column2 {
+	flex: 1;
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-right: 60px;
+
+  }
+
+  /* Ensure image does not exceed column width */
+  .column img {
+	max-width: 100%;
+	height: auto;
+  }
+  
+  /* Style the text content in the right column */
+  .column:nth-child(2) {
+	font-family: Arial, Helvetica, sans-serif ;
+	font-size: 20px;
+	color: #FFFDF7;
+  }
+
+  .h2 {
+	padding-bottom: 150px;
+  }
+
+  /* Style the footer */
+.site-footer {
+	background-color: #021E79;
+	color: #fff;
+	padding: 60px;
+	display:flex;
+	margin-top: 60px;
+  }
+  
+  
+  /* Style the opening hours section */
+ 
+  .opening-hours h3 {
+	font-size: 18px;
+	margin-bottom: 10px;
+	padding-left: 550px;
+  }
+  
+  .opening-hours p {
+	margin: 0;
+	padding-left: 550px;
+  }
+
+  .adress h3 {
+	font-size: 18px;
+	margin-bottom: 10px;
+
+  }
