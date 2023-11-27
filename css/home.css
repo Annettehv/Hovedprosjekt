@@ -38,20 +38,20 @@ body {
   }
 
   .homelink-a {
-	color: #FFFDF7;
+	color: #f3eddc;
 	font-size: 20px ;
 	text-decoration: none;
   }
 
   .menulink-a {
-	color: #FFFDF7;
+	color: #f3eddc;
 	font-size: 20px;
 	text-decoration: none;
 
   }
 
   .aboutlink-a {
-	color: #FFFDF7;
+	color: #f3eddc;
 	font-size: 20px;
 	text-decoration: none;
 
@@ -85,13 +85,14 @@ body {
 	align-items: center;
 	padding-top: 270px;
 	padding-bottom: 270px;
-	color: #FFFDF7;
+	color: #f3eddc;
 	font-family: inter;
 
   }
 
   .two-column-section1 {
 	display: flex;
+	padding-bottom: 45px;
   }
   
   .column1 {
@@ -99,6 +100,35 @@ body {
 	padding-top: 20px;
 	padding-left: 80px;
 	padding-right: 40px;
+  }
+
+  .column2 {
+	flex: 1;
+	padding-top: 20px;
+	padding-left: 40px;
+	padding-right: 80px;
+
+  }
+
+  .column3 {
+	flex: 1;
+	padding-top: 20px;
+	padding-left: 80px;
+	padding-right: 40px;
+
+  }
+
+  .column4 {
+	flex: 1;
+	padding-top: 20px;
+	padding-left: 40px;
+	padding-right: 80px;
+  }
+
+  /* Ensure image does not exceed column width */
+  .column img {
+	max-width: 100%;
+	height: auto;
   }
 
   .slideshow {
@@ -143,6 +173,8 @@ img {
 
 .two-column-section2 {
 	display: flex;
+	padding-top: 45px;
+	padding-bottom: 45px;
   }
   
   .column2 {
@@ -163,7 +195,7 @@ img {
   .column:nth-child(2) {
 	font-family: Arial, Helvetica, sans-serif ;
 	font-size: 20px;
-	color: #FFFDF7;
+	color: #f3eddc;
   }
 
   .h2 {
@@ -187,7 +219,7 @@ img {
   /* Style the footer */
 .site-footer {
 	background-color: #021E79;
-	color: #fff;
+	color: #f3eddc;
 	padding: 80px;
 	padding-top: 60px;
 	display:flex;
