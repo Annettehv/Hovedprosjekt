@@ -1,32 +1,34 @@
-/* // Filter function on the menu page
+/* const buttonClick = document.querySelector('.menubutton');
+const buttonClickTwo = document.querySelector('.menubutton2');
+const buttonClickThree = document.querySelector('.menubutton3');
 
-function filter(category) {
-	const items = document.querySelectorAll('.item');
-  
-	// Toggle underline for "Drinks" button
-	const cocktailsButton = document.getElementById('cocktailsButton');
-	const snacksButton = document.getElementById('snacksButton'); // Add an ID to the "Snacks" button
-	const wineButton = document.getElementById('wineButton'); // Add an ID to the Wine button too
-	
-	if (category === 'cocktails') {
-	  cocktailsButton.classList.add('active');
-	  wineButton.classList.remove('active');
-	  snacksButton.classList.remove('active'); // Remove underline from "Snacks" button
-	} else if (category === 'wine') {
-		cocktailsButton.classList.remove('active');
-		wineButton.classList.add('active');
-		snacksButton.classList.remove('active');
-	} else if (category === 'snacks') {
-	  cocktailsButton.classList.remove('active');
-	  wineButton.classList.remove('active');
-	  snacksButton.classList.add('active');
-	} else {
-	  cocktailsButton.classList.remove('active');
-	  wineButton.classList.remove('active');
-	  snacksButton.classList.remove('active');
-	}
-  
-  } */
+
+
+// make the buttons redirect to about us / menu pages
+
+
+buttonClick.addEventListener('click', function() {
+	window.location.href = 'about.html';
+});
+
+
+
+buttonClickTwo.addEventListener('click', function() {
+	window.location.href = 'menu.html';
+});
+
+// not working, maybe because its not on the home page?
+
+
+buttonClickThree.addEventListener('click', function() {
+	window.location.href = 'menu.html';
+	console.log('hi');
+});
+
+console.log(buttonClickThree); */
+
+
+
 
   // function for underlining categories when selected
 
@@ -70,16 +72,23 @@ function filter(category) {
   }
   
 
+// not working, maybe because its not on the home page?
 
+
+buttonClickThree.addEventListener('click', function() {
+	window.location.href = ('menu.html');
+});
+
+console.log(buttonClickThree);
 
 // make the buttons redirect to about us / menu pages
-const buttonClick = document.querySelector('.menubutton');
+
 
 buttonClick.addEventListener('click', function() {
 	window.location.href = ('about.html');
 });
 
-const buttonClickTwo = document.querySelector('.menubutton2');
+
 
 buttonClickTwo.addEventListener('click', function() {
 	window.location.href = ('menu.html');
@@ -88,14 +97,6 @@ buttonClickTwo.addEventListener('click', function() {
 
 
 
-
-// not working, maybe because its not on the home page?
-
-const buttonClickThree = document.querySelector('.menubutton3');
-
-buttonClickThree.addEventListener('click', function() {
-	window.location.href = ('menu.html');
-});
 
 
 
