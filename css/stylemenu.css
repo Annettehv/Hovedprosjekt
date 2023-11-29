@@ -1,4 +1,4 @@
-/* Reset some default styles for better consistency */
+
 * {
 	margin: 0;
 	padding: 0;
@@ -169,8 +169,6 @@
 	margin-top: 60px;
   }
   
-  
-  /* Style the opening hours section */
  
   .opening-hours h3 {
 	font-size: 18px;

@@ -1,4 +1,4 @@
-/* Reset some default styles for better consistency */
+
 * {
 	margin: 0;
 	padding: 0;
@@ -103,7 +103,7 @@
 
   }
 
-  /* Ensure image does not exceed column width */
+  /* This ensures that image does not exceed column width */
   .column img {
 	max-width: 100%;
 	height: auto;
@@ -144,8 +144,6 @@
 	margin-top: 60px;
   }
   
-  
-  /* Style the opening hours section */
  
   .opening-hours h3 {
 	font-size: 18px;

@@ -44,6 +44,7 @@ function filter(category) {
   }
   
   underlineButton();
+  
 
 // filters between cocktails, wine and snacks
 
@@ -57,6 +58,7 @@ function filter(category) {
 		item.style.display = 'none';
 	  }
 	});
+	console.log("category");
   }
   
   function showAll() {
@@ -85,6 +87,8 @@ buttonClickTwo.addEventListener('click', function() {
 
 
 
+
+
 // not working, maybe because its not on the home page?
 
 const buttonClickThree = document.querySelector('.menubutton3');
@@ -98,35 +102,12 @@ buttonClickThree.addEventListener('click', function() {
 // Scroll effect on homepage - not finished
 
 const pageSections = document.querySelectorAll('.two-column-section1');
-//const pageItemSections = document.querySelectorAll('.page-item-section');
-//const header = document.querySelector('.header');
 
 const viewportWidth = window.innerWidth;
 const viewportHeight = window.innerHeight;
 
 let lastScrollPosition = 0;
 let scrollDirection = 'down';
-
-//const activateHeader = () => {
-//	const pixelsScrolledFromTopOfViewport = window.scrollY;
- 
-//	if (pixelsScrolledFromTopOfViewport > lastScrollPosition) {
-//		scrollDirection = 'down';
-//	} else {
-//		scrollDirection = 'up';
-//	}
-
-//	if (scrollDirection === 'down' && pixelsScrolledFromTopOfViewport > 500) {
-//		header.classList.add('header--hidden');
-//	}
-
-//	if (scrollDirection === 'up') {
-//		header.classList.remove('header--hidden');
-//	}
-
-//	lastScrollPosition = pixelsScrolledFromTopOfViewport;
-
-//}
 
 const activateSections = () => {
 	const pixelsScrolledFromTopOfViewport = window.scrollY;
@@ -139,44 +120,15 @@ const activateSections = () => {
 		if (pixelsScrolledFromTopOfViewport > positionToDisplaySection) {
 			section.classList.add('page-section--visible');
 
-			 //setTimeout(() => {
-			 //	section.classList.add('page-section--rotate');
-			 //}, 200);
 		} else {
 			return;
 		}
 	})
 }
 
-//const activateItemSections = () => {
-//	const pixelsScrolledFromTopOfViewport = window.scrollY;
 
-//	pageItemSections.forEach(section => {
-//		const positionFromTopOfViewport = section.offsetTop;
-//		const offsetFromBottom = 200;
-//		const positionToDisplaySection = positionFromTopOfViewport - (viewportHeight - offsetFromBottom);
-
-//		if (pixelsScrolledFromTopOfViewport > positionToDisplaySection) {
-//			const sectionItems = section.querySelectorAll('.page-item');
-			
-			// sectionItems.forEach(item => {
-			// 	item.classList.add('page-item--visible');
-			// });
-
-//			const delay = 80;
-
-//			sectionItems.forEach((item, index) => {
-//				setTimeout(() => {
-//					item.classList.add('page-item--visible');
-//				}, delay * index);
-//			});
-//	
-//		}
-//	});
-//}
 
 window.addEventListener('scroll', () => {
-//	activateHeader();
 	activateSections();
-//	activateItemSections();
+
 });
