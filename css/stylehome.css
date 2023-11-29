@@ -87,6 +87,11 @@ img {
 	padding-top: 50px;
 }
 
+.page-section--visible {
+	opacity: 1;
+
+}
+
 .menubutton {
 	padding-top: 500px;
 }

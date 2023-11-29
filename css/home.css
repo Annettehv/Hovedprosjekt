@@ -93,6 +93,7 @@ body {
   .two-column-section1 {
 	display: flex;
 	padding-bottom: 45px;
+	padding-top: 60px;
   }
   
   .column1 {
@@ -212,7 +213,16 @@ img {
 	font-size: 20px;
   }
 
+  .menubutton2 {
+	color:#021E79;
+	font-size: 20px;
+  }
+
   .menubutton:hover {
+	text-decoration: underline;
+  }
+
+  .menubutton2:hover {
 	text-decoration: underline;
   }
 

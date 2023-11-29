@@ -1,0 +1,193 @@
+/* Reset some default styles for better consistency */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+  
+  body {
+	background-color: #f3eddc;
+	min-height: 100vh;
+	place-items: center;
+	font-family: inter;
+	
+  }
+
+  .navigation {
+	padding-left: 60px;
+	padding-top:30px;
+  }
+
+  li {
+	list-style: none;
+	display:inline-block;
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	
+  }
+  
+  .homelink {
+	padding-right: 1000px;
+  }
+
+  .menulink {
+	padding-right: 60px;
+  }
+
+  .aboutlink {
+	
+  }
+
+  .homelink-a {
+	color: #021E79;
+	font-size: 20px ;
+	text-decoration: none;
+  }
+
+  .menulink-a {
+	color: #021E79;
+	font-size: 20px;
+	text-decoration: none;
+
+  }
+
+  .aboutlink-a {
+	color: #021E79;
+	font-size: 20px;
+	text-decoration: none;
+
+  }
+
+  .homelink-a:hover {
+	text-decoration: underline;
+  }
+
+  .menulink-a:hover {
+	text-decoration: underline;
+  }
+
+  .aboutlink-a:hover {
+	text-decoration: underline;
+  }
+
+  
+
+  .headertext {
+	font-size: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 270px;
+	padding-bottom: 290px;
+	color: #021E79;
+	font-family: inter ;
+  }
+
+/*   .menu-items {
+	display: flex;
+	flex-wrap: wrap; 
+  }
+  
+  .item {
+	width: 200px;
+	border: 1px solid #ccc;
+	padding: 10px;
+	margin: 10px;
+	display: block;
+  }
+  
+  /* Additional styles to hide/show items */
+ /*  .item {
+	display: block;
+  } */ 
+
+  .menu-filter {
+	color: #021E79;
+	font-size: 20px;
+	padding-left: 180px;
+	padding-right: 180px;
+	display: flex;
+	justify-content: space-evenly;
+	
+  }
+
+  .menu-filter button.active {
+	text-decoration: underline;
+  }
+
+  .menu-items {
+	/* display: flex; */
+	padding-top: 60px;
+
+  }
+
+  .cocktail-items {
+	display:flex
+  }
+
+  .wine-items {
+	display:flex;
+  }
+
+  .columnleft {
+	flex: 1;
+	padding-left: 180px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+  }
+
+  .columnright {
+	flex: 1;
+	padding-left: 40;
+	padding-right: 80;
+	padding-bottom: 40px;
+  }
+
+  .cocktails {
+	padding-bottom: 20px;
+  }
+
+  .wine {
+	padding-bottom: 20px;
+  }
+
+  .snacks-items {
+	display:flex;
+  }
+
+  .snacks {
+	padding-bottom: 20px;
+  }
+
+  /* Style the footer */
+.site-footer {
+	background-color: #021E79;
+	color: #f3eddc;
+	padding: 80px;
+	padding-top: 60px;
+	display:flex;
+	margin-top: 60px;
+  }
+  
+  
+  /* Style the opening hours section */
+ 
+  .opening-hours h3 {
+	font-size: 18px;
+	margin-bottom: 10px;
+	padding-left: 530px;
+  }
+  
+  .opening-hours p {
+	margin: 0;
+	padding-left: 530px;
+  }
+
+  .adress h3 {
+	font-size: 18px;
+	margin-bottom: 10px;
+
+  }
+  
+ 
+
