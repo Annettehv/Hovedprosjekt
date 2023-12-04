@@ -4,8 +4,69 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Book table</title>
+	<link rel="stylesheet" href="./css/reset.css">
+  	<link rel="stylesheet" href="./css/book.css">
 </head>
 <body>
+	<div class="navigation">
+		<ul>
+			<li class="homelink"><a class="homelink-a" href="home.html">Home</a></li>
+			<li class="menulink"><a class="menulink-a" href="menu.html">Our Menu</a></li>
+			<li class="booklink"><a class="booklink-a" href="contact.html">Book Table</a></li>
+			<li class="aboutlink"><a class="aboutlink-a" href="about.html">About Us</a></li>
+		</ul>
+	</div>
+
+	<div class="headertext">BOOK TABLE</div>
+
+	<div class="container">
+		<h1>Book a table</h1>
+		<form id="bookingForm">
+		  <label for="name">Name:</label>
+		  <input type="text" id="name" name="name" required>
 	
+		  <label for="email">Email:</label>
+		  <input type="email" id="email" name="email" required>
+	
+		  <label for="date">Date:</label>
+		  <input type="date" id="date" name="date" required>
+	
+		  <label for="time">Time:</label>
+		  <input type="time" id="time" name="time" required>
+	
+		  <label for="guests">Number of Guests:</label>
+		  <input type="number" id="guests" name="guests" required>
+	
+		  <button type="submit">Submit</button>
+		</form>
+	  </div>
+
+	  <div class="popup" id="popup">
+		<div class="popup-content">
+		  <span class="close" id="close">&times;</span>
+		  <p>Please fill out all fields before submitting.</p>
+		</div>
+	  </div>
+
+	<footer class="site-footer">
+		<div class="adress">
+			<h3>Visit us at</h3>
+			<p>Olav M. Troviks vei 2</p>
+			<p>0864, Oslo</p>
+			<p>Norway</p>
+		</div>
+
+		<div class="opening-hours">
+		  <h3>Opening Hours</h3>
+		  <p>Monday: 16:00-00:30</p>
+		  <p>Tuesday: 16:00-00:30</p>
+		  <p>Wednesday: 16:00-00:30</p>
+		  <p>Thursday: 16:00-00:30</p>
+		  <p>Friday: 16:00-00:30</p>
+		  <p>Saturday: 15:00-02:00</p>
+		  <p>Sunday: 18:00-00:30</p>
+		</div>
+	  </footer>
+<script src="./js/contact.js" defer></script>	
 </body>
 </html>

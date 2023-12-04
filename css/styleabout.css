@@ -27,15 +27,19 @@
   }
   
   .homelink {
-	padding-right: 1000px;
+	padding-right: 900px;
   }
 
   .menulink {
-	padding-right: 60px;
+	padding-right: 30px;
   }
 
   .aboutlink {
-	
+	padding-right: 30px;
+  }
+
+  .booklink {
+	padding-right: 30px;
   }
 
   .homelink-a {
@@ -58,6 +62,12 @@
 
   }
 
+  .booklink-a {
+	color:#021E79;
+	font-size: 20px;
+	text-decoration: none;
+  }
+
   .homelink-a:hover {
 	text-decoration: underline;
   }
@@ -67,6 +77,10 @@
   }
 
   .aboutlink-a:hover {
+	text-decoration: underline;
+  }
+
+  .booklink-a:hover {
 	text-decoration: underline;
   }
 
