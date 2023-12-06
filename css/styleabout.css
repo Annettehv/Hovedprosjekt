@@ -117,6 +117,10 @@
 
   }
 
+  img {
+	100%;
+  }
+
   /* This ensures that image does not exceed column width */
   .column img {
 	max-width: 100%;
