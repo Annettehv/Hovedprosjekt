@@ -86,6 +86,8 @@ body {
 	text-decoration: underline;
   }
 
+  /* Header */
+
   .container {
 	width: 100%;
 	height: 100vh;
@@ -106,6 +108,8 @@ body {
 	font-family: inter;
 
   }
+
+  /* Main */
 
   .two-column-section1 {
 	display: flex;
@@ -143,11 +147,12 @@ body {
 	padding-right: 5rem;
   }
 
-  /* Ensure image does not exceed column width */
   .column img {
 	max-width: 100%;
 	height: auto;
   }
+
+  /* Slideshow */
 
   .slideshow {
 	height: 500px;
@@ -189,6 +194,8 @@ img {
 
 }
 
+/* Main 2 */
+
 .two-column-section2 {
 	display: flex;
 	padding-top: 2.813rem;
@@ -203,13 +210,12 @@ img {
 
   }
 
-  /* Ensure image does not exceed column width */
+  
   .column img {
 	max-width: 100%;
 	height: auto;
   }
   
-  /* Style the text content in the right column */
   .column:nth-child(2) {
 	font-family: Arial, Helvetica, sans-serif ;
 	font-size: 1.25rem;
@@ -243,7 +249,8 @@ img {
 	text-decoration: underline;
   }
 
-  /* Style the footer */
+  /* Footer */
+
 .site-footer {
 	background-color: #021E79;
 	color: #f3eddc;
@@ -253,8 +260,6 @@ img {
 	margin-top: 3.75rem;
   }
   
-  
-  /* Style the opening hours section */
  
   .opening-hours h3 {
 	font-size: 1.125rem;

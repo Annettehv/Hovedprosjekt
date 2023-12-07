@@ -13,6 +13,8 @@
 	
   }
 
+  /* Navigation */
+
   .navigation {
 	padding-left: 3.75rem;
 	padding-top: 1.875rem;
@@ -84,7 +86,7 @@
 	text-decoration: underline;
   }
 
-  
+  /* Header */
 
   .headertext {
 	font-size: 9.375rem;
@@ -96,6 +98,8 @@
 	color: #021E79;
 	font-family: inter ;
   }
+
+  /* Menu */
 
   .menu-filter {
 	color: #021E79;
@@ -118,7 +122,6 @@
   .cocktail-items {
 	display:flex;
 	
-
   }
 
   .wine-items {
@@ -156,8 +159,9 @@
 	padding-bottom: 1.25rem;
   }
 
-  /* Style the footer */
-.site-footer {
+  /* Footer */
+
+  .site-footer {
 	background-color: #021E79;
 	color: #f3eddc;
 	padding: 5rem;
