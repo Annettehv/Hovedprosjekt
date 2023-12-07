@@ -14,8 +14,8 @@
   }
 
   .navigation {
-	padding-left: 60px;
-	padding-top:30px;
+	padding-left: 3.75rem;
+	padding-top: 1.875rem;
   }
 
   li {
@@ -27,44 +27,44 @@
   }
   
   .homelink {
-	padding-right: 900px;
+	padding-right: 56.25rem;
   }
 
   .menulink {
-	padding-right: 30px;
+	padding-right: 1.875rem;
   }
 
   .aboutlink {
-	padding-right: 30px;
+	padding-right: 1.875rem;
   }
 
   .booklink {
-	padding-right: 30px;
+	padding-right: 1.875rem;
   }
 
   .homelink-a {
 	color: #021E79;
-	font-size: 20px ;
+	font-size: 1.25rem ;
 	text-decoration: none;
   }
 
   .menulink-a {
 	color: #021E79;
-	font-size: 20px;
+	font-size: 1.25rem;
 	text-decoration: none;
 
   }
 
   .aboutlink-a {
 	color: #021E79;
-	font-size: 20px;
+	font-size: 1.25rem;
 	text-decoration: none;
 
   }
 
   .booklink-a {
 	color:#021E79;
-	font-size: 20px;
+	font-size: 1.25rem;
 	text-decoration: none;
   }
 
@@ -87,39 +87,21 @@
   
 
   .headertext {
-	font-size: 150px;
+	font-size: 9.375rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding-top: 270px;
-	padding-bottom: 290px;
+	padding-top: 16.875rem;
+	padding-bottom: 18.125rem;
 	color: #021E79;
 	font-family: inter ;
   }
 
-/*   .menu-items {
-	display: flex;
-	flex-wrap: wrap; 
-  }
-  
-  .item {
-	width: 200px;
-	border: 1px solid #ccc;
-	padding: 10px;
-	margin: 10px;
-	display: block;
-  }
-  
-  /* Additional styles to hide/show items */
- /*  .item {
-	display: block;
-  } */ 
-
   .menu-filter {
 	color: #021E79;
-	font-size: 20px;
-	padding-left: 180px;
-	padding-right: 180px;
+	font-size: 1.25rem;
+	padding-left: 11.25rem;
+	padding-right: 11.25rem;
 	display: flex;
 	justify-content: space-evenly;
 	
@@ -130,9 +112,7 @@
   }
 
   .menu-items {
-	/* display: flex; */
-	padding-top: 60px;
-
+	padding-top: 3.75rem;
   }
 
   .cocktail-items {
@@ -153,58 +133,76 @@
 
   .columnleft {
 	flex: 1;
-	padding-left: 180px;
-	padding-right: 40px;
-	/* padding-bottom: 40px; */
+	padding-left: 11.25rem;
+	padding-right: 2.5rem;
   }
 
   .columnright {
 	flex: 1;
-	padding-left: 40;
-	padding-right: 80;
-	/* padding-bottom: 40px; */
+	padding-left: 2.5rem;
+	padding-right: 5rem;
   }
 
   .cocktails {
-	padding-bottom: 20px;
+	padding-bottom: 1.25rem;
   }
 
   .wine {
-	padding-bottom: 20px;
+	padding-bottom: 1.25rem;
   }
 
 
   .snacks {
-	padding-bottom: 20px;
+	padding-bottom: 1.25rem;
   }
 
   /* Style the footer */
 .site-footer {
 	background-color: #021E79;
 	color: #f3eddc;
-	padding: 80px;
-	padding-top: 60px;
+	padding: 5rem;
+	padding-top: 3.75rem;
 	display:flex;
-	margin-top: 60px;
+	margin-top: 3.75rem;
   }
   
  
   .opening-hours h3 {
-	font-size: 18px;
-	margin-bottom: 10px;
-	padding-left: 530px;
+	font-size: 1.125rem;
+	margin-bottom: 0.625rem;
+	padding-left: 33.125rem;
   }
   
   .opening-hours p {
 	margin: 0;
-	padding-left: 530px;
+	padding-left: 33.125rem;
   }
 
   .adress h3 {
-	font-size: 18px;
-	margin-bottom: 10px;
+	font-size: 1.125rem;
+	margin-bottom: 0.625rem;
 
   }
   
+    /* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+	.snacks-items {
+	  flex-direction: column;
+	}
+
+	.cocktail-items {
+		flex-direction: column;
+	}
+
+	.wine-items {
+		flex-direction: column;
+	}
+
+
+	.site-footer {
+		flex-direction: column;
+	}
+
+  }
  
 

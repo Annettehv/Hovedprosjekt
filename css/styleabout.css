@@ -14,8 +14,8 @@
   }
 
   .navigation {
-	padding-left: 60px;
-	padding-top:30px;
+	padding-left: 3.75rem;
+	padding-top:1.875rem;
   }
 
   li {
@@ -27,44 +27,44 @@
   }
   
   .homelink {
-	padding-right: 900px;
+	padding-right: 56.25rem;
   }
 
   .menulink {
-	padding-right: 30px;
+	padding-right: 1.875rem;
   }
 
   .aboutlink {
-	padding-right: 30px;
+	padding-right: 1.875rem;
   }
 
   .booklink {
-	padding-right: 30px;
+	padding-right: 1.875rem;
   }
 
   .homelink-a {
 	color: #021E79;
-	font-size: 20px ;
+	font-size: 1.25rem ;
 	text-decoration: none;
   }
 
   .menulink-a {
 	color: #021E79;
-	font-size: 20px;
+	font-size: 1.25rem;
 	text-decoration: none;
 
   }
 
   .aboutlink-a {
 	color: #021E79;
-	font-size: 20px;
+	font-size: 1.25rem;
 	text-decoration: none;
 
   }
 
   .booklink-a {
 	color:#021E79;
-	font-size: 20px;
+	font-size: 1.25rem;
 	text-decoration: none;
   }
 
@@ -87,12 +87,12 @@
   
 
   .headertext {
-	font-size: 150px;
+	font-size: 9.375rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding-top: 270px;
-	padding-bottom: 290px;
+	padding-top: 16.875rem;
+	padding-bottom: 18.125rem;
 	color: #021E79;
 	font-family: inter ;
   }
@@ -104,16 +104,16 @@
   
   .column1 {
 	flex: 1;
-	padding-top: 20px;
-	padding-left: 80px;
-	padding-right: 40px;
+	padding-top: 1.25rem;
+	padding-left: 5rem;
+	padding-right: 2.5rem;
   }
   
   .column2 {
 	flex: 1;
-	padding-top: 20px;
-	padding-left: 40px;
-	padding-right: 80px;
+	padding-top: 1.25rem;
+	padding-left: 2.5rem;
+	padding-right: 5rem;
 
   }
 
@@ -130,22 +130,22 @@
   /* Style the text content in the right column */
   .column:nth-child(2) {
 	font-family: Arial, Helvetica, sans-serif ;
-	font-size: 20px;
+	font-size: 1.25rem;
 	color: #f3eddc;
   }
 
   .h2 {
-	padding-bottom: 150px;
+	padding-bottom: 9.375rem;
   }
 
   .paragraph {
-	font-size: 18px;
-	padding-bottom: 210px;
+	font-size: 1.125rem;
+	padding-bottom: 13.125rem;
   }
 
   .menubutton3 {
 	color:#021E79;
-	font-size: 20px;
+	font-size: 1.25rem;
   }
 
   .menubutton3:hover {
@@ -156,26 +156,38 @@
 .site-footer {
 	background-color: #021E79;
 	color: #f3eddc;
-	padding: 80px;
-	padding-top: 60px;
+	padding: 5rem;
+	padding-top: 3.75rem;
 	display:flex;
-	margin-top: 60px;
+	margin-top: 3.75rem;
   }
   
  
   .opening-hours h3 {
-	font-size: 18px;
-	margin-bottom: 10px;
-	padding-left: 530px;
+	font-size: 1.125rem;
+	margin-bottom: 0.625rem;
+	padding-left: 33.125rem;
   }
   
   .opening-hours p {
 	margin: 0;
-	padding-left: 530px;
+	padding-left: 33.125rem;
   }
 
   .adress h3 {
-	font-size: 18px;
-	margin-bottom: 10px;
+	font-size: 1.125rem;
+	margin-bottom: 0.625rem;
+
+  }
+
+    /* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+	.two-column-section {
+	  flex-direction: column;
+	}
+
+	.site-footer {
+		flex-direction: column;
+	}
 
   }

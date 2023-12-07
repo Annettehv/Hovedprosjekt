@@ -11,10 +11,11 @@ body {
 	font-family: inter;
 }
 
+/* Navigation */
 
   .navigation {
-	padding-left: 60px;
-	padding-top:30px;
+	padding-left: 3.75rem;
+	padding-top: 1.875rem;
   }
 
   li {
@@ -26,46 +27,46 @@ body {
   }
   
   .homelink {
-	padding-right: 900px;
+	padding-right: 56.25rem;
   }
 
   .menulink {
-	padding-right: 30px;
+	padding-right: 1.875rem;
   }
 
   .aboutlink {
-	padding-right: 30px;
+	padding-right: 1.875rem;
 	
   }
 
   .booklink {
-	padding-right: 30px;
+	padding-right: 1.875rem;
 
   }
 
   .homelink-a {
 	color: #f3eddc;
-	font-size: 20px ;
+	font-size: 1.25rem;
 	text-decoration: none;
   }
 
   .menulink-a {
 	color: #f3eddc;
-	font-size: 20px;
+	font-size: 1.25rem;
 	text-decoration: none;
 
   }
 
   .aboutlink-a {
 	color: #f3eddc;
-	font-size: 20px;
+	font-size: 1.25rem;
 	text-decoration: none;
 
   }
 
   .booklink-a {
 	color:#f3eddc;
-	font-size: 20px;
+	font-size: 1.25rem;
 	text-decoration: none;
   }
 
@@ -95,12 +96,12 @@ body {
 
   .headertext {
 	position: relative;
-	font-size: 150px;
+	font-size: 9.375rem; 
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding-top: 270px;
-	padding-bottom: 270px;
+	padding-top: 16.875rem;
+	padding-bottom: 16.875rem;
 	color: #f3eddc;
 	font-family: inter;
 
@@ -108,38 +109,38 @@ body {
 
   .two-column-section1 {
 	display: flex;
-	padding-bottom: 45px;
+	padding-bottom: 2.813rem;
 	padding-top: 60px;
   }
   
   .column1 {
 	flex: 1;
-	padding-top: 20px;
-	padding-left: 80px;
-	padding-right: 40px;
+	padding-top: 1.25rem;
+	padding-left: 5rem;
+	padding-right: 2.5rem;
   }
 
   .column2 {
 	flex: 1;
-	padding-top: 20px;
-	padding-left: 40px;
-	padding-right: 80px;
+	padding-top: 1.25rem;
+	padding-left: 2.5rem;
+	padding-right: 5rem;
 
   }
 
   .column3 {
 	flex: 1;
-	padding-top: 20px;
-	padding-left: 80px;
-	padding-right: 40px;
+	padding-top: 1.25rem;
+	padding-left: 5rem;
+	padding-right: 2.5rem;
 
   }
 
   .column4 {
 	flex: 1;
-	padding-top: 20px;
-	padding-left: 40px;
-	padding-right: 80px;
+	padding-top: 1.25rem;
+	padding-left: 2.5rem;
+	padding-right: 5rem;
   }
 
   /* Ensure image does not exceed column width */
@@ -177,11 +178,11 @@ body {
 }
 
 .slide {
-	height: 500px;
-	width: 350px;
+	height: 31.25rem;
+	width: 21.875rem;
 	display: flex;
 	align-items: center;
-	padding: 15px;
+	padding: 0.938rem;
 }
 img {
 	width: 100%;
@@ -190,15 +191,15 @@ img {
 
 .two-column-section2 {
 	display: flex;
-	padding-top: 45px;
-	padding-bottom: 45px;
+	padding-top: 2.813rem;
+	padding-bottom: 2.813rem;
   }
   
   .column2 {
 	flex: 1;
-	padding-top: 20px;
-	padding-left: 40px;
-	padding-right: 80px;
+	padding-top: 1.25rem;
+	padding-left: 2.5rem;
+	padding-right: 5rem;
 
   }
 
@@ -211,27 +212,27 @@ img {
   /* Style the text content in the right column */
   .column:nth-child(2) {
 	font-family: Arial, Helvetica, sans-serif ;
-	font-size: 20px;
+	font-size: 1.25rem;
 	color: #f3eddc;
   }
 
   .h2 {
-	padding-bottom: 150px;
+	padding-bottom: 9.375rem;
   }
 
   .paragraph {
-	font-size: 18px;
-	padding-bottom: 210px;
+	font-size: 1.125rem;
+	padding-bottom: 13.125rem;
   }
 
   .menubutton {
 	color:#021E79;
-	font-size: 20px;
+	font-size: 1.25rem;
   }
 
   .menubutton2 {
 	color:#021E79;
-	font-size: 20px;
+	font-size: 1.25rem;
   }
 
   .menubutton:hover {
@@ -246,29 +247,29 @@ img {
 .site-footer {
 	background-color: #021E79;
 	color: #f3eddc;
-	padding: 80px;
-	padding-top: 60px;
+	padding: 5rem;
+	padding-top: 3.75rem;
 	display:flex;
-	margin-top: 60px;
+	margin-top: 3.75rem;
   }
   
   
   /* Style the opening hours section */
  
   .opening-hours h3 {
-	font-size: 18px;
-	margin-bottom: 10px;
-	padding-left: 530px;
+	font-size: 1.125rem;
+	margin-bottom: 0.625rem;
+	padding-left: 33.125rem;
   }
   
   .opening-hours p {
 	margin: 0;
-	padding-left: 530px;
+	padding-left: 33.125rem;
   }
 
   .adress h3 {
-	font-size: 18px;
-	margin-bottom: 10px;
+	font-size: 1.125rem;
+	margin-bottom: 0.625rem;
 
   }
 
@@ -277,82 +278,22 @@ img {
 	.two-column-section1 {
 	  flex-direction: column;
 	}
-  }
 
+	.two-column-section2 {
+		flex-direction: column;
+	}
 
+	.site-footer {
+		flex-direction: column;
+	}
 
-/* navigation */
-
-/*.navigation {
-	padding-left: 60px;
-	padding-top:30px;
-  }
-
-  li {
-	list-style: none;
-	display:inline-block;
-	font-family: Arial, Helvetica, sans-serif;
-	color: black;
-	
-  }
-  
-  .homelink {
-	padding-right: 1000px;
-  }
-
-  .menulink {
-	padding-right: 60px;
-  }
-
-  .aboutlink {
-	
-  }
-
-  .homelink-a {
-	color: #021E79;
-	font-size: 20px ;
-	text-decoration: none;
-  }
-
-  .menulink-a {
-	color: #021E79;
-	font-size: 20px;
-	text-decoration: none;
-
-  }
-
-  .aboutlink-a {
-	color: #021E79;
-	font-size: 20px;
-	text-decoration: none;
-
-  }
-
-  .homelink-a:hover {
-	text-decoration: underline;
-  }
-
-  .menulink-a:hover {
-	text-decoration: underline;
-  }
-
-  .aboutlink-a:hover {
-	text-decoration: underline;
-  }*/
-
-  /* header */
-
-  /*.headertext {
-	position: relative;
-	font-size: 150px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	/*padding-top: 270px;
-	padding-bottom: 270px;*/
-	/*color: #021E79;
-	font-family: inter ;*/
+	.navigation {
+		flex-direction: column;
+	}
 	
 
   }
+
+
+
 
